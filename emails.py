@@ -17,7 +17,7 @@ with open('25-02-2022-15-06-06.mp4', "rb") as f:
 
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-    server.login('pytest764@gmail.com', 'nymwxdkjuujklvsh')
+    server.login('Email', 'KEY')
     server.send_message(msg)
 
 print('Email sent')
